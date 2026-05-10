@@ -31,8 +31,8 @@ pytest tests/ -v
 | Month | Milestone |
 |-------|-----------|
 | 1 ✅ | Core energy model + simulator |
-| 2 🔨 | FastAPI REST server |
-| 3    | React tablet dashboard |
+| 2 ✅ | FastAPI REST server |
+| 3 🔨 | React tablet dashboard |
 | 4    | PostgreSQL trip logging |
 | 5    | React Native mobile app |
 | 6    | Docs + launch |
