@@ -18,14 +18,12 @@ dependencies = [
 dev = [
     "pytest>=8.0",
     "pytest-cov",
-    "httpx",     
-    "fastapi>=0.110",
-    "uvicorn[standard]>=0.29"
+    "httpx",          # for FastAPI TestClient (Month 2)
 ]
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["reev_core*"]
+include = ["reev_core*", "api*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
